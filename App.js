@@ -26,7 +26,7 @@ export default function App() {
   //const setbgColor = () => boxColor='red';
   return (
     <View style={styles.container}>
-      <Text>Hello, Welcome To My React Playground</Text>
+      <Text>Hello</Text>
       <Animated.View style={{width: 100, height: 100, backgroundColor: bgColor, transform: [{ translateY: translation,}]}}></Animated.View>
       <TouchableOpacity style={{backgroundColor: 'gray', borderRadius: '20px', padding: '10px', marginTop: '15px', width: '175px'}}onPress={showAlert()}><Text style={{textAlign: 'center', fontWeight: 'bold', fontSize: '20px'}}>PRESS ME</Text></TouchableOpacity>
       <StatusBar style="auto" />
