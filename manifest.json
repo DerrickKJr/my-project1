@@ -5,9 +5,5 @@
   "name": "my-project1",
   "short_name": "OUTSIDE MANI",
   "start_url": "/my-project1?utm_source=web_app_manifest",
-  "orientation": "portrait",
-  "serviceworker": {
-    "src": "serviceWorker.js",
-    "scope": "/"
-  }
+  "orientation": "portrait"
 }
