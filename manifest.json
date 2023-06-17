@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "display": "standalone",
+  "display": "browser",
   "lang": "en",
   "name": "my-project1",
   "short_name": "my-project1-sn",
