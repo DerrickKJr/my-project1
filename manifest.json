@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "lang": "en",
+  "name": "my-project1",
+  "short_name": "my-project1-sn",
+  "start_url": "/my-project1?utm_source=web_app_manifest",
+  "orientation": "portrait",
+  "serviceworker": {
+    "src": "serviceWorker.js",
+    "scope": "/"
+  }
+}
