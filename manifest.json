@@ -5,5 +5,9 @@
   "name": "my-project1",
   "short_name": "my-project1",
   "start_url": "/?utm_source=web_app_manifest",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "serviceworker": {
+    "src": "serviceWorker.js",
+    "scope": "/"
+  }
 }
