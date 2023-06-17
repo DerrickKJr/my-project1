@@ -4,6 +4,7 @@ import { Animated, StyleSheet, Text, View, Alert, Button, TouchableOpacity } fro
 
 const showAlert = () =>
   Alert.alert("Test Alert", "This is a test alert");
+  console.log("Alert");
 
 export default function App() {
   const translation = useRef(new Animated.Value(0)).current;
@@ -27,7 +28,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Hello, Welcome To My React Playground</Text>
       <Animated.View style={{width: 100, height: 100, backgroundColor: bgColor, transform: [{ translateY: translation,}]}}></Animated.View>
-      <TouchableOpacity style={{backgroundColor: 'gray', borderRadius: '20px', padding: '10px', marginTop: '15px', width: '175px'}}onPress={() => setbgColor(colorChange())}><Text style={{textAlign: 'center', fontWeight: 'bold', fontSize: '20px'}}>PRESS ME</Text></TouchableOpacity>
+      <TouchableOpacity style={{backgroundColor: 'gray', borderRadius: '20px', padding: '10px', marginTop: '15px', width: '175px'}}onPress={showAlert()}><Text style={{textAlign: 'center', fontWeight: 'bold', fontSize: '20px'}}>PRESS ME</Text></TouchableOpacity>
       <StatusBar style="auto" />
     </View>
   );
